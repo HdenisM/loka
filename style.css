@@ -1,3 +1,19 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: url('fonts/SF-Pro-Display-Regular.otf');
+    }
+
+@font-face {
+    font-family: 'Bona Nova';
+    src: url('fonts/BonaNova-Bold.ttf');
+    }
+
+@font-face {
+    font-family: 'Caravan';
+    src: url('fonts/Caravan.otf');
+    }
+
+
 body{
     background-color: #4C7152;
     margin: 0;
