@@ -1,0 +1,660 @@
+body{
+    background-color: #4C7152;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    position: relative;;
+}
+
+.content {
+    min-height: 100vh;
+  }
+
+/*----------ВЕРХНЕЕ МЕНЮ----------*/
+
+.top-menu {
+    z-index: 10;
+    background-color: #171717;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7vw 2vw;
+    box-sizing: border-box; 
+    margin-bottom: 20px;
+}
+
+.logo img {
+    height: 2vw;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding: 0.2vw 0; 
+}
+
+.menu-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2vw 0;
+}
+
+.menu-buttons button {
+    background: none;
+    font-family: SF Pro Display;
+    font-weight: 700;
+    border: none;
+    color: #EDCFC5;
+    font-size: 0.8vw;
+    cursor: pointer;
+    margin-left: 1vw;
+}
+
+/*----------БЛОК 1----------*/
+
+#block1{
+    z-index: 0;
+    position: relative;
+    top: 8vw;
+}
+
+.Head, .Head2 {
+    font-family: 'Bona Nova', sans-serif;
+    color: #EDCFC5;
+    font-size: 3vw;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: -6.8vw;
+}
+
+.Head2 {
+    color: white;
+    margin-right: 30.5%;
+}
+
+.Head4 {
+    font-family: Caravan;
+    color: #7BFF4D;
+}
+
+#g3 {
+    margin-right: 10vw;
+}
+
+#g4 {
+    color: #EDCFC5;
+    font-family: SF Pro Display;
+    font-style: italic;
+    font-size: 0.75vw;
+    font-weight: 500;
+    margin-left: 57.3vw;
+    margin-top: 5.5vw;
+}
+#g5 {
+    font-family: Caravan;
+    font-size: 17vw;
+    margin-left: 63vw;
+    margin-top: -40.5vw;
+    color: #7BFF4D;
+}
+
+/*----------БЛОК 2----------*/
+
+#block2{
+    position: relative;
+    height: 100vw;
+    z-index: 0;
+    bottom: 50vw;
+}
+
+.box {
+    flex: 1 1 20%;
+    margin: 1vw;
+    position: relative;
+}
+
+.star_blur{
+    position: relative;
+    bottom: 20vw;
+    left: 65vw;
+}
+
+.lines{
+    position: relative;
+    top: 14vw;
+    left: 12vw;
+    width: 10vw;
+    rotate: 5deg;
+}
+
+#g6 {
+    color: white;
+    position: relative;
+    top: 13vw;
+}
+#g7 {
+    сolor: #7BFF4D; 
+    position: relative;
+    font-size: 23vw;
+    top: -20vw;
+    left: 40vw;
+    width: 2px;
+}
+
+.photoText{
+    font-family: SF Pro Display;
+    font-size: 1vw;
+    color: #EDCFC5;
+}
+
+.box{
+    z-index: 1;
+}
+
+#box1{
+    width: 14vw;
+    left: 70vw;
+    top: -75vw;
+}
+
+#jpg1{
+    width: 10vw;
+}
+
+#box2{
+    width: 14vw;
+    left: 8vw;
+    top: -90vw;
+}
+
+#jpg2{
+    width: 10vw;
+}
+
+#box3{
+    width: 18vw;
+    left: 35.5vw;
+    top: -95vw;
+}
+
+#box4{
+    width: 18vw;
+    left: 10vw;
+    top: -103vw;
+}
+
+#box5{
+    width: 18vw;
+    left: 55vw;
+    top: -115vw;
+}
+
+.lines_blur{
+    position: relative;
+    top: -150vw;
+    left: 55vw;
+    width: 10vw;
+    rotate: -20deg;
+    z-index: 0;
+}
+
+.star{
+    position: relative;
+    z-index: 0;
+    bottom: 173vw;
+    left: 26vw;
+}
+
+.lines2{
+    position: relative;
+    z-index: 0;
+    bottom: 145vw;
+    left: 32vw;
+}
+
+.star_blur2{
+    position: relative;
+    z-index: 0;
+    bottom: 155vw;
+    left: 10vw;
+}
+
+/*----------БЛОК 3----------*/
+
+#block3 {
+ z-index: 1;
+ position: relative;
+ bottom: 50vw;
+}
+
+.centered-box {
+    position: relative;
+    z-index: 1;
+    width: 98%; /* Ширина прямоугольника */
+    height: 60vw;
+    top: 2vw;
+    margin: 0 auto;
+    background-color: rgba(57, 71, 59, 0.7);
+}
+
+#b3text1{
+    padding-top: 7vw;
+    padding-left: 13vw;
+    font-family: SF Pro Display;
+    font-weight: 300;
+    font-style: italic;
+    color: #EDCFC5;
+    font-size: 1vw;
+}
+
+.Head5 {
+    font-family: 'Bona Nova', sans-serif;
+    color: #EDCFC5;
+    font-size: 3vw;
+    font-weight: 900;
+}
+
+#b3h1{
+    padding-left: 12.7vw;
+}
+
+.Head6 {
+    font-family: 'Bona Nova', sans-serif;
+    color: #EDCFC5;
+    font-size: 3vw;
+    font-weight: 900;
+}
+
+.Head7 {
+    font-family: 'Bona Nova', sans-serif;
+    color: #ffffff;
+    font-size: 3vw;
+    font-weight: 900;
+}
+
+#b3h2{
+    padding-top: 5vw;
+    padding-left: 15vw;
+    z-index: 1;
+}
+
+#b3h3{
+    padding-left: 20vw;
+    z-index: 1;
+}
+
+#b3h4{
+    padding-left: 12.7vw;
+    z-index: 1;
+}
+
+#sideslide{
+    position: relative;
+    rotate: -90deg;
+    height: 3vw;
+    width: 50vw;
+    background-color: #387542;
+    right: 20vw;
+    bottom: 10vw;
+    border-radius: 10vw;
+    overflow: hidden;
+}
+
+#b3text2{
+    font-family: SF Pro Display;
+    font-weight: 300;
+    font-style: italic;
+    color: #EDCFC5;
+    font-size: 1.5vw;
+    margin-top: -1vw;
+}
+
+.b3picture{
+    position: relative;
+    bottom: 43.5vw;
+    left: 65vw;
+}
+
+.b3text4{
+    position: relative;
+    font-family: SF Pro Display;
+    font-weight: 300;
+    font-style: italic;
+    color: #EDCFC5;
+    font-size: 1.3vw;
+    margin-top: -1vw;
+    bottom: 60vw;
+    left: 13vw;
+}
+#b3text4_2{
+    position: relative;
+    bottom: 58vw;
+}
+.lines_blur2{
+    position: relative;
+    bottom: 58vw;
+    z-index:0 ;
+    left: 45vw;
+}
+
+/*----------БЛОК 4----------*/
+
+#block4 {
+    z-index: 1;
+    position: relative;
+    bottom: 45vw;
+    height: 40vw;
+}
+
+#b4text1{
+    padding-top: 2vw;
+    padding-left: 13vw;
+    font-family: SF Pro Display;
+    font-weight: 300;
+    font-style: italic;
+    color: #EDCFC5;
+    font-size: 1vw;
+}
+
+#b4h1{
+    padding-left: 12.7vw;
+}
+
+#canon{
+    
+    position: relative;
+    bottom: 16.4vw;
+    left: 3vw;
+}
+
+#b4box1{
+    position: relative;
+    width: 37.8vw;
+    height: 6.8vw;
+    background-color: rgba(57, 71, 59, 0.8);
+    left: 10vw;
+    bottom: 76vw;
+    z-index: 3;
+
+}
+#b4text2{
+    padding: 1vw;
+    font-family: SF Pro Display;
+    font-weight: 300;
+    font-style: italic;
+    color: #EDCFC5;
+    font-size: 1vw;
+    width: 50vw;
+}
+
+/*----------БЛОК 5----------*/
+
+#block5 {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -40vw;
+    left: 13vw;
+    width: 60vw;
+  }
+  
+  #box1, #box2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #box1 {
+    margin-right: -20px; 
+  }
+  
+  #box2 {
+    margin-left: -20px;
+  } 
+  
+  .b5h1 {
+    margin-bottom: -10vw;
+    font-family: 'Bona Nova', sans-serif;
+    color: #fff;
+    font-size: 3vw;
+    font-weight: 900; 
+  }
+  
+  #b5h1 {
+    color: #7BFF4D;
+  }
+  
+  #b5h3 {
+    color: #7BFF4D; 
+  }
+  
+#b5text1, #b5text2{
+    font-family: SF Pro Display;
+    font-weight: 300;
+    font-style: italic;
+    color: #EDCFC5;
+    font-size: 1vw;
+    width: 50vw;
+    margin-top: 11vw;
+}
+
+  /*----------БЛОК 6----------*/
+
+  #block6 {
+    display: flex;
+    margin-top: -32vw;
+  }
+
+  #box6{
+    position: relative;
+    left: 13vw;
+  }
+
+  #b6text1{
+    font-family: SF Pro Display;
+    font-weight: 300;
+    font-style: italic;
+    color: #EDCFC5;
+    font-size: 1vw;
+    width: 10vw;
+  }
+
+  #map{
+    position: relative;
+    top: 3vw;
+    left: -8vw;
+  }
+
+  #woman{
+    position: relative;
+    margin-left: 12vw;
+  }
+
+  #b6text3{
+    font-family: SF Pro Display;
+    font-weight: 300;
+    font-style: italic;
+    color: #EDCFC5;
+    font-size: 1vw;
+    margin-top: 8vw;
+    position: relative;
+    left: -8vw;
+}
+
+#box7{
+    position: relative;
+    top: 57vw;
+    left: -66vw;
+    display: block;
+    min-width: 100vw;
+}
+
+#b7h1, #b7h2, #b7h3{
+    width: 200vw;
+}
+
+#b7h1{
+    padding-left: 10vw;
+}
+#b7h3{
+    padding-left: 15vw;
+}
+
+.Head8 {
+    font-family: 'Bona Nova', sans-serif;
+    color: #7BFF4D;
+    font-size: 3vw;
+    font-weight: 900;
+    width: 50vw;
+}
+.Head9 {
+    font-family: 'Bona Nova', sans-serif;
+    color: #EDCFC5;
+    font-size: 3vw;
+    font-weight: 900;
+}
+.Head10 {
+    font-family: 'Bona Nova', sans-serif;
+    color: #ffffff;
+    font-size: 3vw;
+    font-weight: 900;
+}
+#logo_green{
+    position: relative;
+    left: 58.5vw;
+    top: -8.5vw;
+}
+
+/*----------БЛОК 7----------*/
+#block7{
+    position: relative;
+}
+
+#bg{
+    position: relative;
+    top: 10vw;
+    z-index: 0;
+}
+
+#middleslide{
+    position: relative;
+    height: 3vw;
+    width: 90vw;
+    background-color: #3E5242;
+    left: 4.5vw;
+    bottom: 50vw;
+    border-radius: 10vw;
+    overflow: hidden;
+}
+
+#b7text1{
+    font-family: SF Pro Display;
+    font-weight: 300;
+    font-style: italic;
+    color: #EDCFC5;
+    font-size: 1.5vw;
+    margin-top: -1vw;
+    width: 100vw;
+}
+
+#b8h1 {
+    font-family: 'Bona Nova', sans-serif;
+    color: #EDCFC5;
+    font-size: 3vw;
+    font-weight: 900;
+    position: relative;
+    bottom: 45vw;
+    left: 20vw
+}
+
+#b8h2 {
+    position: relative;
+    font-family: Caravan;
+    font-size: 20vw; 
+    font-weight: 10;
+    color: #7BFF4D;
+    margin-top: -82vw;
+    z-index: 2;
+    padding-left: 30vw;
+}
+#star_blur3{
+    position: relative;
+    z-index: 2;
+    top: -30vw;
+    left: 65vw;
+}
+
+#info{
+    display: flex;
+}
+
+#one{
+    position: relative;
+    z-index: 2;
+    background-color: #2D2D2D;
+    width: 50vw;
+    height: 4.5vw;
+    bottom: 30vw;
+    left: 12vw;
+    border-radius: 90px;
+}
+#b8text1{
+    font-family: SF Pro Display;
+    color: #6C6C6C;
+    font-size: 1.2vw;
+    font-weight: 700;
+    position: relative;
+    text-transform: uppercase;
+    padding-left: 2vw;
+    padding-top: 0.4vw;
+}
+
+#two{
+    position: relative;
+    z-index: 2;
+    background-color: #2D2D2D;
+    width: 20vw;
+    height: 4.5vw;
+    bottom: 30vw;
+    left: 14vw;
+    border-radius: 90px;
+}
+
+#b8text2{
+    font-family: SF Pro Display;
+    color: #EDCFC5;
+    font-size: 1.2vw;
+    font-weight: 700;
+    position: relative;
+    text-transform: uppercase;
+    padding-left: 6.5vw;
+    padding-top: 0.4vw;
+}
+
+/*----------подвал----------*/
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 15vw;
+    background-color: #171717;
+    display: flex;
+  }
+  
+  #logo3, #medias, #adc{
+    margin-top: 6vw;
+  }
+  
+  #logo3{
+    margin-left: 5vw;
+  }
+
+  #medias{
+    margin-left: 10vw;
+  }
+
+  #adc{
+    margin-left: 46vw;
+  }
